@@ -1,7 +1,12 @@
-const thresholdForTooMuch = 3;
+
 
 (function(){
     'use strict';
+
+
+    const thresholdForTooMuch = 3;
+
+
     angular.module('LunchCheck',[]).controller('LunchCheckController', LunchCheckController);
     LunchCheckController.$inject = ['$scope'];
     function LunchCheckController($scope){
@@ -9,7 +14,7 @@ const thresholdForTooMuch = 3;
         $scope.inputTextBox = "";
         $scope.check = ()=>{
             let input = $scope.inputTextBox;
-            if (input === ""){$scope.message = "Please enter data first "}
+            if (input === ""){$scope.message = "Please enter data first ";}
             else {
                 let inputArray = input.split(",");
                 let count = 0;
