@@ -9,16 +9,19 @@ const thresholdForTooMuch = 3;
         $scope.inputTextBox = "";
         $scope.check = ()=>{
             let input = $scope.inputTextBox;
-            let inputArray = input.split(",");
-            let count = 0;
-            let message = "Enjoy";
-            for(let i = 0; i<inputArray.length; i++){
-                if (inputArray[i].trim() !== ""){
-                    count ++;
+            if (input === ""){$scope.message = "Please enter data first "}
+            else {
+                let inputArray = input.split(",");
+                let count = 0;
+                let message = "Enjoy";
+                for (let i = 0; i < inputArray.length; i++) {
+                    if (inputArray[i].trim() !== "") {
+                        count++;
+                    }
                 }
+                count > thresholdForTooMuch ? message = "Too much" : "Enjoy";
+                $scope.message = message;
             }
-            count>thresholdForTooMuch ? message = "Too much":"Enjoy";
-            $scope.message = message;
         }
 
     }
