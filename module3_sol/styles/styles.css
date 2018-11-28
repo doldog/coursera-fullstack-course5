@@ -5,8 +5,12 @@ input[type="text"] {
   width: 200px;
   float: left;
 }
-.narrow-button {
+#itemlist{
+  clear:left;
+}
 
+.narrow-button {
+  float: left;
   margin-left: 10px;
 }
 .loader {
