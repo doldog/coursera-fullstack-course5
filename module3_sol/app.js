@@ -11,24 +11,25 @@
     function MenuSearchService($http,$q){
         const service = this;
         service.getMatchedMenuItems = (searchTerm)=>{
-            searchTerm = searchTerm || "";
-            let deferred = $q.defer();
-            let promise = this.getMenuItems();
-            promise.then(function(response){
-                let items = response.data.menu_items;
-                let matchedItems = [];
-                for(let i = 0; i<items.length; i++){
-                    let name = items[i].name;
-                    if(name.toLowerCase().indexOf(searchTerm.toLowerCase()) !== -1){
-                        matchedItems.push(items[i]);
+                let deferred = $q.defer();
+                if (!searchTerm) deferred.reject("Please enter a name to search");
+                let promise = this.getMenuItems();
+                promise.then(function (response) {
+                    let items = response.data.menu_items;
+                    let matchedItems = [];
+                    for (let i = 0; i < items.length; i++) {
+                        let name = items[i].name;
+                        if (name.toLowerCase().indexOf(searchTerm.toLowerCase()) !== -1) {
+                            matchedItems.push(items[i]);
+                        }
                     }
-                }
-                if(matchedItems.length === 0) deferred.reject("No match found");
-                else deferred.resolve(matchedItems);
-            }).catch(function(error){
-                deferred.reject(error);
-            });
-            return deferred.promise;
+                    if (matchedItems.length === 0) deferred.reject("No match found");
+                    else deferred.resolve(matchedItems);
+                }).catch(function (error) {
+                    deferred.reject(error);
+                });
+                return deferred.promise;
+
         };
 
         service.getMenuItems = ()=>{
@@ -47,17 +48,20 @@
         const controller = this;
         controller.searchTerm = "";
         controller.found = [];
+        controller.hasError = false;
+        controller.errorMessage = "";
         controller.getMatchedMenuItems = () =>{
-            console.log("c.st: "+controller.searchTerm);
+
             let promise = MenuSearchService.getMatchedMenuItems(controller.searchTerm);
             promise.then(function(response){
                 controller.found = response;
-                for(let i = 0; i<controller.found.length; i++){
-                    console.log(controller.found[i].name);
-                }
+                controller.hasError = false;
+                controller.errorMessage = "";
+
             })
                 .catch(function(error){
-                    console.log(error);
+                    controller.hasError = true;
+                    controller.errorMessage = error;
                 });
         };
         controller.removeItem = function(itemIndex){
