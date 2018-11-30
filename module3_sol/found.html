@@ -1,7 +1,7 @@
 <div>
 <ol id = "itemlist">
     <li ng-if = "!foundItems.hasError" ng-repeat="item in foundItems.found">
-       {{item.short_name}}  {{item.name}} <br>
+       {{item.short_name}}  {{item.name}}<br>
         {{item.description}}<br>
         <button ng-click="onRemove({index: $index});">Don't want this one</button>
     </li>
