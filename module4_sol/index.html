@@ -1,17 +1,29 @@
 <!doctype html>
 <html lang="en" ng-app = "MenuApp">
 <head>
-    <title>Narrow Down Your Menu Choice</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src = "./angular.min.js"></script>
-    <script src = "./app.js"></script>
+    <title>Menu</title>
+
 
 </head>
 <body>
+    <ui-view></ui-view>
+
+    <!--Libraries-->
     <script src = "lib/angular.min.js"></script>
     <script src = "lib/angular-ui-router.min.js"></script>
-
-    <script src = "src/MenuApp/MenuApp.module.js"></script>
+    <!--Modules-->
+    <script src = "src/MenuApp/menuApp.module.js"></script>
     <script src = "src/MenuApp/Data.module.js"></script>
+    <!--Routes-->
+    <script src = "src/routes.js"></script>
+
+    <!--MenuApp artifacts-->
+    <script src = "src/MenuApp/categoryPage.controller.js"></script>
+    <script src = "src/MenuApp/categories.component.js"></script>
+    <script src = "src/MenuApp/items.component.js"></script>
+    <script src = "src/MenuApp/menuDetail.controller.js"></script>
+    <!--Data artifacts-->
+    <script src = "src/MenuApp/menuData.service.js"></script>
+
 </body>
 </html>
