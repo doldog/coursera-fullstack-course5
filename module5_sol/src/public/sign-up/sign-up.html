@@ -1,0 +1,23 @@
+<fieldset>
+    <legend style = "color : white" >Sign Up Here</legend>
+    <form name = "signUpForm" novalidate>
+        <input type="text" name='First Name' placeholder="First Name"
+               ng-model="reg.firstName"
+               required style = "color: black">
+        <span ng-if="reg.firstName.$error.required && reg.firstName.$touched">
+            Please enter your first name.
+          </span><br>
+        <input type = "text" name = "lastName" ng-model = "reg.lastName" placeholder="Last Name" required style = "color: black" ng-e><span ng-if="reg.lastName.$error.required && reg.lastName.$touched" >
+            Please enter your last name.
+          </span><br>
+        <input type = "email" name = "emailAddress" ng-model = "reg.emailAddress" placeholder="Email" required style = "color: black"><span ng-if="reg.emailAddress.$invalid && reg.emailAddress.$touched">
+            Please enter email address.
+          </span><br>
+        <input type = "text" name = "favorite item" ng-model = "reg.fav" placeholder="Enter your favorite item" style = "color: black"><br>
+
+
+        <button ng-disabled="signUpForm.$invalid"
+             ng-click = "reg.submit()" style = "color:black">Submit</button>
+        <p>{{reg.message}}</p>
+    </form>
+</fieldset>

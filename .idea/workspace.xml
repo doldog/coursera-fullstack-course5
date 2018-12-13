@@ -2,21 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="abc219f1-8a8b-4004-9e39-fab7e7d480b6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/module4_sol/src/MenuApp/categories.component.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module4_sol/src/MenuApp/categoryPage.controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module4_sol/src/MenuApp/items.component.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module4_sol/src/MenuApp/menuData.service.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module4_sol/src/MenuApp/menuDetail.controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module4_sol/src/MenuApp/templates/categoryPage.template.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module4_sol/src/MenuApp/templates/menuCategories.template.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module4_sol/src/MenuApp/templates/menuDetail.template.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module4_sol/src/MenuApp/templates/menuDetailPage.template.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module4_sol/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/module4_sol/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module4_sol/lib/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module4_sol/src/MenuApp/MenuApp.module.js" beforeDir="false" afterPath="$PROJECT_DIR$/module4_sol/src/MenuApp/menuApp.module.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module4_sol/src/MenuApp/templates/home.template.html" beforeDir="false" afterPath="$PROJECT_DIR$/module4_sol/src/MenuApp/templates/home.template.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module4_sol/src/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/module4_sol/src/routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module4_sol/src/MenuApp/menuDetail.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/module4_sol/src/MenuApp/menuDetail.controller.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -32,26 +19,68 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/module4_sol/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="15" lean-forward="true" selection-start-column="15" selection-end-column="15" />
+            <state relative-caret-position="126">
+              <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/module4_sol/src/MenuApp/categories.component.js">
+        <entry file="file://$PROJECT_DIR$/module4_different_structure/src/routes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+            <state relative-caret-position="1554">
+              <caret line="37" column="16" selection-start-line="28" selection-start-column="12" selection-end-line="37" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/module4_sol/src/MenuApp/menuDetail.controller.js">
+        <entry file="file://$PROJECT_DIR$/module4_different_structure/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+            <state relative-caret-position="966">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module4_different_structure/src/MenuApp/categoryPage.controller.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module4_different_structure/src/MenuApp/templates/menuDetailPage.template.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module4_different_structure/src/MenuApp/templates/menuDetail.template.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module4_different_structure/src/MenuApp/templates/menuCategories.template.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/module4_different_structure/src/MenuApp/items.component.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="714">
+              <caret line="17" column="49" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module4_different_structure/src/MenuApp/menuData.service.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="756">
+              <caret line="18" column="32" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -61,56 +90,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="42">
               <caret line="1" column="43" selection-start-line="1" selection-start-column="43" selection-end-line="1" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/module4_sol/src/MenuApp/templates/menuDetail.template.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/module4_sol/src/routes.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1216">
-              <caret line="32" column="25" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/module4_sol/src/MenuApp/templates/menuDetailPage.template.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="49" selection-start-column="49" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/module4_sol/src/MenuApp/categoryPage.controller.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/module4_sol/src/MenuApp/templates/categoryPage.template.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/module4_sol/src/MenuApp/templates/menuCategories.template.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="19" selection-start-column="19" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -139,15 +118,20 @@
         <option value="$PROJECT_DIR$/module4_sol/index.html" />
         <option value="$PROJECT_DIR$/module4_sol/src/MenuApp/templates/menuDetailPage.html" />
         <option value="$PROJECT_DIR$/module4_sol/src/MenuApp/templates/menuDetail.template.html" />
-        <option value="$PROJECT_DIR$/module4_sol/src/MenuApp/menuDetail.controller.js" />
         <option value="$PROJECT_DIR$/module4_sol/src/routes.js" />
         <option value="$PROJECT_DIR$/module4_sol/src/MenuApp/templates/home.template.html" />
         <option value="$PROJECT_DIR$/module4_sol/src/MenuApp/templates/categoryPage.template.html" />
+        <option value="$PROJECT_DIR$/module4_sol/src/MenuApp/menuDetail.controller.js" />
         <option value="$PROJECT_DIR$/module4_sol/src/MenuApp/templates/menuCategories.template.html" />
+        <option value="$PROJECT_DIR$/module4_different_structure/src/routes.js" />
+        <option value="$PROJECT_DIR$/module4_different_structure/index.html" />
+        <option value="$PROJECT_DIR$/module4_different_structure/src/MenuApp/templates/menuCategories.template.html" />
+        <option value="$PROJECT_DIR$/module4_different_structure/src/MenuApp/items.component.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="4">
+    <option name="x" value="1920" />
     <option name="y" value="35" />
     <option name="width" value="1920" />
     <option name="height" value="2125" />
@@ -168,37 +152,6 @@
               <item name="coursera-fullstack-course5" type="b2602c69:ProjectViewProjectNode" />
               <item name="coursera-fullstack-course5" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="coursera-fullstack-course5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="coursera-fullstack-course5" type="462c0819:PsiDirectoryNode" />
-              <item name="module3_sol" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="coursera-fullstack-course5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="coursera-fullstack-course5" type="462c0819:PsiDirectoryNode" />
-              <item name="module4_sol" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="coursera-fullstack-course5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="coursera-fullstack-course5" type="462c0819:PsiDirectoryNode" />
-              <item name="module4_sol" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="coursera-fullstack-course5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="coursera-fullstack-course5" type="462c0819:PsiDirectoryNode" />
-              <item name="module4_sol" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="MenuApp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="coursera-fullstack-course5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="coursera-fullstack-course5" type="462c0819:PsiDirectoryNode" />
-              <item name="module4_sol" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="MenuApp" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -212,7 +165,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../fullstack-course5" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="MTConfigurable" />
@@ -256,21 +209,23 @@
       <workItem from="1543946078257" duration="2777000" />
       <workItem from="1543949521594" duration="6710000" />
       <workItem from="1543965477256" duration="19344000" />
+      <workItem from="1544068926372" duration="156000" />
+      <workItem from="1544069320146" duration="2365000" />
+      <workItem from="1544126035052" duration="28000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33662000" />
+    <option name="totallyTimeSpent" value="36211000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="35" width="1920" height="2125" extended-state="4" />
-    <editor active="true" />
+    <frame x="1920" y="35" width="1920" height="2125" extended-state="4" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.41812226" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21506551" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -399,37 +354,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module4_sol/src/MenuApp/menuCategory.controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/module4_sol/src/MenuApp/menuCategory.controller.js" />
     <entry file="file://$PROJECT_DIR$/package-lock.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/module4_sol/src/MenuApp/templates/items.component.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module4_sol/src/MenuApp/Data.module.js">
+    <entry file="file://$PROJECT_DIR$/module4_sol/src/MenuApp/templates/items.component.js" />
+    <entry file="file://$PROJECT_DIR$/module4_sol/src/routes.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module4_sol/src/MenuApp/menuApp.module.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="2" column="51" lean-forward="true" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module4_sol/src/MenuApp/menuData.service.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="18" column="32" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="32" />
+        <state relative-caret-position="1344">
+          <caret line="32" column="25" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -440,55 +373,109 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module4_sol/src/MenuApp/categoryPage.controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module4_sol/src/MenuApp/templates/menuDetail.template.html">
+    <entry file="file://$PROJECT_DIR$/module4_sol/src/MenuApp/templates/categoryPage.template.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/module4_sol/src/MenuApp/templates/menuDetailPage.template.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="49" selection-start-column="49" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/module4_sol/src/MenuApp/categories.component.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/module4_sol/src/MenuApp/menuDetail.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module4_sol/src/MenuApp/menuData.service.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1050">
+          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module4_sol/src/MenuApp/menuApp.module.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="2" column="51" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module4_sol/src/MenuApp/Data.module.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module4_sol/src/MenuApp/categoryPage.controller.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
           <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module4_sol/src/routes.js">
+    <entry file="file://$PROJECT_DIR$/module4_sol/src/MenuApp/categories.component.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1216">
-          <caret line="32" column="25" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
+        <state relative-caret-position="462">
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module4_sol/src/MenuApp/templates/menuDetailPage.template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module4_sol/src/MenuApp/templates/menuDetail.template.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module4_sol/src/MenuApp/templates/menuCategories.template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="2" column="82" selection-start-line="2" selection-start-column="82" selection-end-line="2" selection-end-column="82" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/module4_sol/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="15" lean-forward="true" selection-start-column="15" selection-end-column="15" />
+        <state relative-caret-position="126">
+          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module4_sol/src/MenuApp/templates/categoryPage.template.html">
+    <entry file="file://$PROJECT_DIR$/module4_different_structure/src/routes.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
+        <state relative-caret-position="1554">
+          <caret line="37" column="16" selection-start-line="28" selection-start-column="12" selection-end-line="37" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module4_different_structure/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="966">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module4_different_structure/src/MenuApp/categoryPage.controller.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module4_different_structure/src/MenuApp/templates/menuDetailPage.template.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module4_different_structure/src/MenuApp/templates/menuDetail.template.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module4_different_structure/src/MenuApp/templates/menuCategories.template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module4_different_structure/src/MenuApp/menuData.service.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="18" column="32" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -499,10 +486,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module4_sol/src/MenuApp/templates/menuCategories.template.html">
+    <entry file="file://$PROJECT_DIR$/module4_different_structure/src/MenuApp/items.component.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="19" selection-start-column="19" selection-end-column="19" />
+        <state relative-caret-position="714">
+          <caret line="17" column="49" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
         </state>
       </provider>
     </entry>
