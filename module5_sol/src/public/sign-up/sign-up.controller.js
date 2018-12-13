@@ -19,7 +19,7 @@
             user.firstName = $ctrl.firstName;
             user.lastName = $ctrl.lastName;
             user.email = $ctrl.emailAddress;
-            user.fav = $ctrl.fav.toLowerCase();
+            user.fav = $ctrl.fav.toUpperCase();
             $ctrl.formClicked = true;
             UserService.reg(user);
             $ctrl.submitSuccess = true;
